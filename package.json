@@ -1,0 +1,24 @@
+{
+  "name": "webpack4-split-chunks-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "async": "webpack --config webpack.async.js",
+    "initial": "webpack --config webpack.initial.js",
+    "all": "webpack --config webpack.all.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.11",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
